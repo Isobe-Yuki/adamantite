@@ -1,6 +1,6 @@
 <?php
 
-require 'core/ClassLoader.php';
+require 'study_php/application/core/ClassLoader.php';
 
 $loader = new ClassLoader();
 $loader->registerDirectory(dirname(__FILE__) . '/core');
