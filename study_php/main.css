@@ -1,0 +1,60 @@
+@CHARSET "UTF-8";
+
+.main_title{
+	text-align: center;
+}
+
+.author{
+	width: 1000px;
+	margin: 0 auto;
+	text-align: right;
+}
+
+.sub_title {
+	
+}
+
+#page {
+    width: 1100px;
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #666666;
+    background-color: #ffff80;
+    background-repeat: repeat-x;
+    background-position: top;
+}
+
+#content {
+	width: 738px;
+    float: left;
+    padding: 20px 10px 20px 0px;
+    margin: 0px;
+    border-right: 1px dashed #CCCCCC;
+}
+
+#menu {
+    width: 300px;
+    float: right;
+    font-size: 100%;
+    padding: 0px;
+    margin: 25px 15px 0px 0px;
+}
+
+h2 #content {
+	color: #FFFFFF;
+    padding: 20px;
+    margin: 10px 20px 10px 30px;
+    background-color: #ff8080;
+    font-size: 120%;
+    line-height: 130%;
+}
+
+h2 #menu {
+	color: #FFFFFF;
+    padding: 20px;
+    margin: 10px 20px 10px 30px;
+    background-color: #0080c0;
+    font-size: 120%;
+    line-height: 80%;
+}
