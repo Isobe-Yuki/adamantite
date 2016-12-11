@@ -1,4 +1,5 @@
 <?php
-require 'bootstrap.php';
-echo "test";
+echo "taaest";
+require '../bootstrap.php';
+echo "hello";
 ?>

@@ -1,0 +1,8 @@
+%button {
+  @include button-structure;
+  @include button-skin;
+}
+
+.button {
+  @extend %button;
+}

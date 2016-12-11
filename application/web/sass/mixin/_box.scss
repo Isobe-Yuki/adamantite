@@ -1,0 +1,7 @@
+/* box */
+@mixin box-structure($margin:10px) {
+  margin: $margin;
+}
+@mixin box-skin($background:#fff) {
+  background: $background;
+}
