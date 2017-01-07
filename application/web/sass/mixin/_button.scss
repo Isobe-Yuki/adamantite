@@ -1,6 +1,6 @@
-@mixin button-structure($margin: 20px) {
+@mixin button_configuration ($margin: 20px) {
   margin: $margin;
 }
-@mixin button-skin($background: #222) {
+@mixin button_decoration ($background: #222) {
   background: $background;
 }

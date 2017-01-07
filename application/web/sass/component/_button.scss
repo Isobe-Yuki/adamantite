@@ -1,6 +1,6 @@
 %button {
-  @include button-structure;
-  @include button-skin;
+  @include button_configuration;
+  @include button-decoration;
 }
 
 .button {
