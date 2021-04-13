@@ -1,8 +1,0 @@
-%box {
-  @include box-structure;
-  @include box-skin;
-}
-
-.box {
-  @extend %box;
-}

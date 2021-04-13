@@ -1,8 +1,0 @@
-%button {
-  @include button_configuration;
-  @include button-decoration;
-}
-
-.button {
-  @extend %button;
-}

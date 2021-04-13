@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+    app:
+        build:
+            context: ./docker/app
+            dockerfile: Dockerfile
+        volumes:
+            - ./backend:/usr/share/nginx/html
+        networks:
+            - adamantite
+    web:
+        build:
+            context: ./docker/web
+            dockerfile: Dockerfile
+        ports:
+            - "8080:8080"
+        depends_on:
+            - app
+        networks: 
+            - adamantite
+    ui:
+        build:
+            context: ./docker/ui
+            dockerfile: Dockerfile
+        ports:
+            - "3000:3000"
+        volumes:
+            - ./frontend:/code
+networks:
+    adamantite:
+        driver: bridge
